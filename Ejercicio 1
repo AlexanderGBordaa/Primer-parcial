@@ -1,0 +1,10 @@
+def listar_inverso(lista):
+    if len(lista) == 0:
+        return
+
+    print(lista[-1])
+    listar_inverso(lista[:-1])
+
+
+mi_lista = [1, 2, 3, 4, 5]
+listar_inverso(mi_lista)
